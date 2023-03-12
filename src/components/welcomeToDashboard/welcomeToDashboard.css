@@ -1,0 +1,557 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3%;
+}
+
+.col-11 {
+    width: 91.63%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.WelcomeToDashboard {
+    width: auto;
+    height: auto;
+    padding: 0 40px;
+    margin-top: 30px;
+}
+
+.welcome {
+    height: auto;
+    width: 100%;
+}
+
+.welcome p {
+    font-size: 23px;
+}
+
+.welcome p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.welcome p:nth-child(2) {
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.div1 {
+    width: 32%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+    background-color: #FFFFFF;
+    padding: 30px;
+    height: 270px;
+}
+
+.div1-1 {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+
+}
+
+.div1-1-1 {
+    display: flex;
+}
+
+.div1-1-1-1 {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+
+.div1-1-1-1 p {
+    margin: 0;
+    font-size: 23px;
+}
+
+.div1-1-1-1 p:nth-child(1) {
+    font-weight: 700;
+
+}
+
+.div1-1-1-1 p:nth-child(2) {
+    font-weight: 400;
+}
+
+.elisabeth2 {
+    width: 81px;
+    height: 72px;
+}
+
+.threeDots {
+    width: 17px;
+    height: 5px;
+}
+
+.div1 hr {
+    width: 100%;
+    height: 1px;
+    background-color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+    margin-top: 40px;
+}
+
+.div1-2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone img {
+    width: 18px;
+    height: 18px;
+}
+
+.phone {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.div1-2 a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.mail img {
+    width: 18px;
+    height: 13px;
+}
+
+.div1-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.div1-3-1 {
+    width: 33.33%;
+}
+
+.div1-3-1 p {
+    font-size: 11px;
+    color: #353B41;
+}
+
+.div1-3-1 p:nth-child(1) {
+    font-weight: 700;
+}
+
+.div1-3-1 p:nth-child(2) {
+    font-weight: 400;
+}
+
+.div1-3-1-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1-3-1-2 {
+    width: 100%;
+    margin-top: 2px;
+}
+.div1-3-2-1-1{
+    height: 5px;
+    border-radius: 10px;
+    width: 100%;
+    background: #AAAAAA;
+}
+.div1-3-2-1-2{
+    height: 100%;
+    width: 75%;
+    background: #0055FF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.div1-3-2 {
+    width: 33.33%;
+}
+
+.div1-3-2 p {
+    font-size: 11px;
+    color: #353B41;
+}
+
+.div1-3-2 p:nth-child(1) {
+    font-weight: 700;
+}
+
+.div1-3-2 p:nth-child(2) {
+    font-weight: 400;
+    color: #353B41;
+}
+
+.div1-3-2-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1-3-2-2 {
+    width: 100%;
+    margin-top: 2px;
+}
+.div1-3-2-2-1{
+    height: 5px;
+    border-radius: 10px;
+    width: 100%;
+    background: #AAAAAA;
+}
+.div1-3-2-2-2{
+    height: 100%;
+    width: 75%;
+    background: #FF794D;
+    border-radius: 10px 0px 0px 10px;
+}
+.div2 {
+    width: 32%;
+    margin-left: 40px;
+    height: 270px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div2-1 {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+    background-color: #FFFFFF;
+    height: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.div2-1-1 {
+    background-color: #E7F9EF;
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2-1-2 {
+    margin-left: 20px;
+}
+
+.div2-1-2 p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.div2-1-2 p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.div2-2 {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+    background-color: #FFFFFF;
+    height: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.div2-2-1 {
+    background-color: #E7F9EF;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2-2-2 {
+    margin-left: 20px;
+}
+
+.div2-2-2 p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.div3 {
+    padding: 20px 30px;
+    width: 32%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+    background-color: #FFFFFF;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div3 hr {
+    width: 100%;
+    height: 1px;
+    background-color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+    margin-top: 20px;
+}
+
+.div3-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div3-1-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div3-1-1 p:nth-child(1) {
+    font-weight: 700;
+    font-size: 32px;
+    color: #434141;
+}
+
+.div3-1-1 p:nth-child(2) {
+    font-weight: 700;
+    font-size: 48px;
+    color: #434141;
+}
+
+.div3-1-1 p:nth-child(3) {
+    font-weight: 400;
+    font-size: 32px;
+    color: #434141;
+}
+
+.div3-2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 10px;
+}
+
+.div3-2-1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    height: max-content;
+}
+
+.div3-2-1-1 {
+    width: 35px;
+    height: 26px;
+}
+
+.div3-2-1-2 {
+    margin-left: 10px;
+}
+
+.div3-2-1-2 p:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #353B41;
+}
+
+.div3-2-1-2 p:nth-child(2) {
+    font-weight: 300;
+    font-size: 20px;
+    color: #AAAAAA;
+}
+
+.div3-2-2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    height: max-content;
+}
+
+.div3-2-2-1 {
+    width: 35px;
+    height: 26px;
+}
+
+.div3-2-2-2 {
+    margin-left: 10px;
+}
+
+.div3-2-2-2 p:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #353B41;
+}
+
+.div3-2-2-2 p:nth-child(2) {
+    font-weight: 300;
+    font-size: 20px;
+    color: #AAAAAA;
+}
+
+@media(max-width:700px) {
+    .welcome p {
+        font-size: 32px;
+    }
+
+    .divs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100%;
+        height: 370px;
+    }
+
+    .div1-1-1-1 p {
+        font-size: 32px;
+        margin-top: -4px;
+    }
+
+    .div1-2 a {
+        font-size: 16px;
+    }
+
+    .phone img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mail img {
+        width: 25px;
+        height: 18.75px;
+    }
+
+    .div1-3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div1-3-1 {
+        width: 100%;
+    }
+
+    .div1-3-1 p {
+        font-size: 16px;
+    }
+
+    .div1-3-1-1 {
+        width: 100%;
+    }
+
+    .div1-3-1-2 {
+        width: 100%;
+    }
+    .div1-3-2 {
+        width: 100%;
+    }
+    .div1-3-2-2{
+        width: 100%;
+    }
+
+    .div1-3-2 p {
+        font-size: 16px;
+    }
+    .div2 {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 40px;
+        height: 270px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .div2-1 {
+        height: 145px;
+    }
+
+    .div2-2 {
+        margin-top: 30px;
+        height: 145px;
+    }
+
+    .div3 {
+        padding: 30px;
+        width: 100%;
+        height: 316px;
+        margin-top: 80px;
+    }
+}

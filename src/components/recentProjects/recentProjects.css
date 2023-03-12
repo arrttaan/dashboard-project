@@ -1,0 +1,308 @@
+.RP{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.RPFirstDiv{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RPFirstDiv p{
+    color: #434141;
+    font-size: 32px;
+    font-weight: 700;
+}
+.RPFirstDiv a{
+    text-decoration: none;
+    color :#1C1A73;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RPFirstDiv a img{
+    width: 15px;
+    height: 15px;
+}
+.RPSecondDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 404px;
+}
+.RPDiv1{
+    width: 32%;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+    display: flex;
+    flex-direction: column;
+}
+.RPDiv1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RPDiv1-1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #AAAAAA;
+}
+.RPDivP1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight:600;
+    color: #434141;
+}
+.RPDivP2{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+.RPDiv1-2{
+    margin-top: 20px;
+    width: 123px;
+    height: 39px;
+    background-color: #E0EAFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RPDiv1-2 p{
+    color: #057B96;
+    font-size: 20px;
+    font-weight: 600;
+}
+.RPDiv1-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RPDiv1-3 p:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    color: #353B41;
+}
+.RPDiv1-3 p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: #353B41;
+}
+.RPDiv1-4{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7px;
+}
+.RPDiv1-4-1{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    background: #AAAAAA;
+}
+.RPDiv1-4-2{
+    height: 100%;
+    width: 75%;
+    background: #3DD178;
+    border-radius: 10px 0px 0px 10px;
+}
+.RPDiv1-5{
+    margin-top: 20px;
+    position: relative;
+}
+.imgBoy{
+    position: absolute;
+}
+.imgGirl{
+    position: absolute;
+    left: 35px;
+}
+.RPDiv2{
+    width: 32%;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+}
+.RPDiv2-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RPDiv2-1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #AAAAAA;
+}
+.RPDiv2-2{
+    margin-top: 20px;
+    width: 123px;
+    height: 39px;
+    background-color: #E0CCCD;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RPDiv2-2 p{
+    color: #E31B27;
+    font-size: 20px;
+    font-weight: 600;
+}
+.RPDiv2-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RPDiv2-3 p:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    color: #353B41;
+}
+.RPDiv2-3 p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: #353B41;
+}
+.RPDiv2-4{
+    margin-top: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7px;
+}
+.RPDiv2-4-1{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    background: #AAAAAA;
+}
+.RPDiv2-4-2{
+    height: 100%;
+    width: 50%;
+    background: #E31B27;
+    border-radius: 10px 0px 0px 10px;
+}
+.RPDiv2-5{
+    margin-top: 20px;
+    position: relative;
+}
+.RPDiv3{
+    width: 32%;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #434141;
+}
+.RPDiv3-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RPDiv3-1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #AAAAAA;
+}
+.RPDiv3-2{
+    margin-top: 20px;
+    width: 123px;
+    height: 39px;
+    background-color: #E7F9EF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RPDiv3-2 p{
+    color: #3DD178;
+    font-size: 20px;
+    font-weight: 600;
+}
+.RPDiv3-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RPDiv3-3 p:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    color: #353B41;
+}
+.RPDiv3-3 p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: #353B41;
+}
+.RPDiv3-4{
+    margin-top: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7px;
+}
+.RPDiv3-4-1{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    background: #AAAAAA;
+}
+.RPDiv3-4-2{
+    height: 100%;
+    width: 50%;
+    background: #FFCA38;
+    border-radius: 10px 0px 0px 10px;
+}
+.RPDiv3-5{
+    margin-top: 20px;
+    position: relative;
+}
+.RPDiv3-5 img:nth-child(2){
+    position: absolute;
+}
+@media(max-width :700px){
+    .RPFirstDiv{
+        width: 100%;
+    }
+    .RPSecondDiv{
+        height: auto;
+    }
+    .RPDiv1{
+        width: 100%;
+        height: 404px;
+    }
+    .RPDiv1-3{
+        margin-top: 50px;
+    }
+    .RPDiv2{
+        width: 100%;
+        height: 404px;
+        margin-top: 60px;
+    }
+    .RPDiv2-3{
+        margin-top: 50px;
+    }
+    .RPDiv3{
+        width: 100%;
+        height: 404px;
+        margin-top: 30px;
+    }
+    .RPDiv3-3{
+        margin-top: 50px;
+    }
+}
